@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 ruby "1.9.3"
 gem 'rails_12factor'
 gem 'rails', '4.0.0.rc2'
+gem 'devise', '3.0.0.rc'
+gem 'protected_attributes'
+gem 'simple_form'
 group :production do
   gem 'pg'
 end
