@@ -1,4 +1,8 @@
 Omrails::Application.routes.draw do
+  resources :stuffs
+
+  resources :pins
+
   devise_for :users
   get 'about' => 'pages#about'
   root 'pages#home'
