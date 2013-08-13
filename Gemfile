@@ -4,7 +4,8 @@ gem 'rails_12factor'
 gem 'rails', '4.0.0.rc2'
 gem 'devise', '3.0.0.rc'
 gem 'protected_attributes'
-gem 'simple_form'
+gem 'simple_form', '~> 3.0.0.rc'
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 group :production do
   gem 'pg'
 end
