@@ -7,6 +7,8 @@ gem 'protected_attributes'
 gem 'simple_form', '~> 3.0.0.rc'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 group :production do
   gem 'pg'
 end
