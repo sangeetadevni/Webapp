@@ -4,7 +4,7 @@ class PinsController < ApplicationController
   # GET /pins
   # GET /pins.json
   def index
-    @pins = Pin.all  # @pins = current_user.pins.all (if you want ot show the user only his pins)
+    @pins = Pin.order("created_at desc")  # @pins = current_user.pins.all (if you want ot show the user only his pins)
   end
 
   # GET /pins/1
